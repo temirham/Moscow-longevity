@@ -1,0 +1,38 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Мероприятия{% endblock %}
+{% block content %}
+
+<ul>
+        {% if data.input_text == 1 %}
+           {% include 'qw.html' with element=data.Services.0 %}
+            <button type="submit" form="data"}>Удалить</button>
+        {% elif data.input_text == 2%}
+            {% include 'qw.html' with element=data.Services.0 %}
+            <button type="submit" form="data">Удалить</button>
+            {% include 'qw.html' with element=data.Services.1 %}
+            <button type="submit" form="data">Удалить</button>
+        {% elif data.input_text == 3%}
+            {% include 'qw.html' with element=data.Services.0 %}
+            <button type="submit" form="data">Удалить</button>
+            {% include 'qw.html' with element=data.Services.1 %}
+            <button type="submit" form="data">Удалить</button>
+            {% include 'qw.html' with element=data.Services.2 %}
+            <button type="submit" form="data">Удалить</button>
+        {% else %}
+            {% for service in data.Services %}
+                {% include 'qw.html' with element=service %}
+                <form action = "DelService" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                    <input style="display: none" name="text" value="{{ service.id }}" type="">
+                    <input type="submit" value="Удалить">
+                </form>
+            {% empty %}
+                 <li>Список пуст</li>
+            {% endfor %}
+        {% endif %}
+</ul>
+
+{% endblock %}
+

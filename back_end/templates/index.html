@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<form action="sendText" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input name="text" type="int"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+    <h1><img src="static/img/channels4_profile.jpg" width="200" height="200" alt="деды">
+        Здравствуйте, дорогие пенсионеры!</h1>
+    <p>Рады приветствовать вас на сайте проекта "Московское долголетие"!!!</p>
+    <p>В Москве сегодня: {{ current_date }}</p>
+{% endblock %}

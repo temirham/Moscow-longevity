@@ -1,0 +1,11 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Заказ №{{ data.id }}{% endblock %}
+{% load static %}
+{% block content %}
+    <div>Название: {{ data.Service.name }}</div>
+        <div>Адресс: {{ data.Service.adress }}</div>
+    <img src= {{data.Service.img }}  alt="картинка">
+
+{% endblock %}

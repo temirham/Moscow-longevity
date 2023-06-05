@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Мероприятия{% endblock %}
+{% block content %}
+<ul>
+        {% if data.input_text == 1 %}
+           {% include 'order_element.html' with element=data.orders.0 %}
+        {% elif data.input_text == 2%}
+            {% include 'order_element.html' with element=data.orders.0 %}
+            {% include 'order_element.html' with element=data.orders.1 %}
+        {% elif data.input_text == 3%}
+            {% include 'order_element.html' with element=data.orders.0 %}
+            {% include 'order_element.html' with element=data.orders.1 %}
+            {% include 'order_element.html' with element=data.orders.2 %}
+        {% else %}
+            {% for order in data.orders %}
+                {% include 'order_element.html' with element=order %}
+            {% empty %}
+                 <li>Список пуст</li>
+            {% endfor %}
+        {% endif %}
+</ul>
+
+{% endblock %}
+

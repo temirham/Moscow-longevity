@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85159166-166b-4074-abb5-abdfe22f4c4c" name="Changes" comment="test commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IuxHez1EQElY3jx22p5X4K7uwO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/temas/WebstormProjects/lab4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85159166-166b-4074-abb5-abdfe22f4c4c" name="Changes" comment="" />
+      <created>1671045182890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671045182890</updated>
+      <workItem from="1671045183941" duration="20000" />
+      <workItem from="1671045206498" duration="465000" />
+      <workItem from="1671387977810" duration="1249000" />
+      <workItem from="1671390381757" duration="19841000" />
+      <workItem from="1671607520974" duration="778000" />
+      <workItem from="1671608664262" duration="6956000" />
+      <workItem from="1671654069986" duration="2295000" />
+      <workItem from="1673084595856" duration="269000" />
+      <workItem from="1673972317234" duration="5482000" />
+      <workItem from="1674041755704" duration="1135000" />
+      <workItem from="1674372535025" duration="247000" />
+      <workItem from="1674594445204" duration="166000" />
+      <workItem from="1677774149411" duration="335000" />
+      <workItem from="1678435610558" duration="202000" />
+      <workItem from="1678532652406" duration="247000" />
+      <workItem from="1678558647485" duration="3084000" />
+      <workItem from="1678789387158" duration="3635000" />
+      <workItem from="1678798869645" duration="389000" />
+      <workItem from="1678799474074" duration="469000" />
+      <workItem from="1679336728631" duration="71000" />
+      <workItem from="1679336803660" duration="22000" />
+      <workItem from="1679336966376" duration="123000" />
+      <workItem from="1679337094331" duration="187000" />
+      <workItem from="1679337583562" duration="4268000" />
+      <workItem from="1679593228240" duration="534000" />
+      <workItem from="1680529445893" duration="242000" />
+      <workItem from="1682357572179" duration="2252000" />
+      <workItem from="1682862021749" duration="405000" />
+      <workItem from="1682862847720" duration="8526000" />
+      <workItem from="1682958535938" duration="467000" />
+      <workItem from="1682960090097" duration="53000" />
+      <workItem from="1682960354604" duration="598000" />
+      <workItem from="1683556730529" duration="545000" />
+      <workItem from="1683560450124" duration="584000" />
+      <workItem from="1684069067228" duration="566000" />
+      <workItem from="1684179927741" duration="179000" />
+      <workItem from="1684180198508" duration="785000" />
+      <workItem from="1684235870306" duration="1053000" />
+      <workItem from="1684237168564" duration="5928000" />
+      <workItem from="1684592676685" duration="11756000" />
+      <workItem from="1684695332176" duration="4629000" />
+      <workItem from="1684754331216" duration="9356000" />
+      <workItem from="1684789093418" duration="13265000" />
+      <workItem from="1685028384356" duration="2717000" />
+      <workItem from="1685079081951" duration="2686000" />
+      <workItem from="1685129144134" duration="2790000" />
+      <workItem from="1685184774267" duration="10795000" />
+      <workItem from="1685214561648" duration="6428000" />
+      <workItem from="1685302291547" duration="16556000" />
+      <workItem from="1685439432978" duration="4282000" />
+      <workItem from="1685884385660" duration="980000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1685884553590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685884553590</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1685884721223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685884721223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
+</project>

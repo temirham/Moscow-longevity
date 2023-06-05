@@ -1,0 +1,33 @@
+<!doctype html>
+{% load static %}
+<html lang="ru" class="h-100">
+<head>
+  <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body bgcolor="#62bac0">
+{#    """<form action="sendText" method="post" enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    <input name="text" type="text"><br><br>#}
+{#    <input type="submit" value="Submit">#}
+{#    </form>#}
+{#    <h1><img src="static/img/channels4_profile.jpg" width="200" height="200" alt="деды">#}
+{#        Здравствуйте, дорогие пенсионеры!</h1>#}
+{#    <p>Рады приветствовать вас на сайте проекта "Московское долголетие"!!!</p>#}
+{#    <p>В Москве сегодня: {{ data.current_date }}</p>#}
+
+<aside>
+    <h1>Moscow longivity</h1>
+    <nav>
+
+            <a href="{% url 'home' %}">Главная</a>
+            <a href="{% url 'about' %}">О нас</a>
+            <a href="{% url 'events' %}">Мероприятия</a>
+    </nav>
+</aside>
+    <main>{% block content %}{% endblock %}</main>
+
+</body>
+</html>

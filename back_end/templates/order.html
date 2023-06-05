@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Заказ №{{ data.id }}{% endblock %}
+{% load static %}
+{% block content %}
+    {% if data.id == 1%}
+        <div class="order-text">Информация о Библиотеках</div>
+        <img src={% static "img/PyCharm.jpg" %}>
+    {% elif data.id  == 2 %}
+        <div class="order-text">Информация о Ярмарках</div>
+        <img src= {% static "img/novogodnyaya-yarmarka-na-vdnh.jpg" %}  alt="ярмарка">
+    {% else %}
+        <div class="order-text">Информация о Бассейнах</div>
+        <img src={% static "img/8Z5A8378.jpg" %}  alt="бассейн">
+    {% endif %}
+{% endblock %}
